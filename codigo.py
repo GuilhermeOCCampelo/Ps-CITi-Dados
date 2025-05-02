@@ -1,7 +1,7 @@
 import pandas as pd
 
 df=pd.read_csv("Tabela-Dados.csv")
-
+#padronizando os nomes para que fiquem todos de acordo com o solicitado, Masculino ou Feminino
 df['sexo']=df['sexo'].replace({
     "Masculino" : "Masculino",
     "M" : "Masculino",
